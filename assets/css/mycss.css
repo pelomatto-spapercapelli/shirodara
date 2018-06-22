@@ -1,0 +1,44 @@
+/*---------------------- My Font-------------------------------*/
+h2.curs {
+	font-family: 'Raleway', sans-serif;
+	/*text-align: center;*/
+	font-size: 30px;
+	/*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+h2.ubufont, h3.ubufont, p.ubufont {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+article.ubufont, div.ubufont, li.ubufont {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}
+
+
+/*---------------------- HR Animation -------------------------*/
+div.hidden {
+	visibility: hidden;
+}
+
+div#divid {
+	animation: open 1s;
+}
+
+div#hranim {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background: #ffffff;
+	width: 100%; height: 2px;
+	animation: open 3s;
+}
+@keyframes open {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
